@@ -1,4 +1,7 @@
 package sn.groupeisi.parcinfo.repository;
 
-public interface AppRoleRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import sn.groupeisi.parcinfo.entities.AppRole;
+
+public interface AppRoleRepository extends JpaRepository<AppRole,Long> {
 }
