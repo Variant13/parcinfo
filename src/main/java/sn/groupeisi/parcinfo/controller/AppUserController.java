@@ -12,8 +12,6 @@ public class AppUserController {
         return "Travail DevOps a trois";
     }
 
-    public static void main(String[] args) {
-        SpringApplication.run(AppUserController.class, args);
-    }
+
 
 }
